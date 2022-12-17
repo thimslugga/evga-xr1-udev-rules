@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-echo "copying the udev rule to the /etc/udev/rules.d directory.."
+echo "removing the udev rule from the /etc/udev/rules.d directory.."
 test -f /etc/udev/rules.d/85-evga-xr1-capture-dev.rules \
   && rm -vf /etc/udev/rules.d/85-evga-xr1-capture-dev.rules
 
