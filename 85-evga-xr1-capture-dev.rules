@@ -1,4 +1,0 @@
-# Lite
-KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="3842", ATTRS{idProduct}=="310a", SYMLINK+="evga-xr1-lite"
-# Pro
-KERNEL=="video[0-9]*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="3842", ATTRS{idProduct}=="310b", SYMLINK+="evga-xr1-pro"
